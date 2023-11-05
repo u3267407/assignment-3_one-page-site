@@ -1,0 +1,22 @@
+
+const changeBackgroundColorButton = document.getElementById("changeBackgroundColorButton");
+
+changeBackgroundColorButton.addEventListener("click", function () {
+  const randomColor = getRandomColor();
+
+  document.body.style.backgroundColor = randomColor;
+});
+
+function getRandomColor() {
+  let color = "#";
+  for (let i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+
+
+//
+//
+//
+//
