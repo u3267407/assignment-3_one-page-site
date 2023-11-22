@@ -1,3 +1,4 @@
+
 const changeBackgroundColorButton = document.getElementById("changeBackgroundColorButton");
 
 changeBackgroundColorButton.addEventListener("click", function () {
@@ -14,7 +15,6 @@ function getRandomColor() {
   }
   return color;
 }
-
 //
 //
 //
